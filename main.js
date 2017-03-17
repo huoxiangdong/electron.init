@@ -5,7 +5,7 @@ const url = require('url')
 let macWindow 
 
 function createWindow () {
-  创建一个窗口
+  //创建一个窗口
   macWindow = new BrowserWindow({width: 800, height: 600})
   // 加载index.html
   macWindow.loadURL(url.format({
